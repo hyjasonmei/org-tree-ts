@@ -48,7 +48,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={onClick}>close/open</button>
-      <OrgTreeComponent data={data} ref={treeRef} horizontal />
+      <OrgTreeComponent data={data} ref={treeRef} horizontal canDrag={false}/>
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
